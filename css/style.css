@@ -339,6 +339,9 @@ footer {
     height: 250px;
 }
 
+.footer-basic-info {
+    margin-right: 70px;
+}
 
 .img-footer-logo {
     background-image: url(../img/Group\ 7.svg);
