@@ -1,0 +1,365 @@
+@font-face {
+    font-family: 'Mulish';
+    src: local('Mulish'),
+        url(../fonts/Mulish-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: local('Mulish'),
+        url(../fonts/Mulish-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+        url(../fonts/Inter-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+        url(../fonts/Inter-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display'),
+        url(../fonts/PlayfairDisplay-Bold.ttf) format('truetype');
+}
+
+* {
+    font-family: 'Mulish';
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body {
+    background-color: #F5F5F5;
+    margin: auto;
+    max-width: 1120px;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1120px;
+    align-items: center;
+    top: 0;
+    padding: 15px 0;
+    background-color: #F5F5F5;
+    z-index: 1;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    background-image: url(../img/logo.svg);
+    width: 41px;
+    height: 41px;
+}
+
+header nav ul li:not(:last-child) {
+    margin-right: 35px;
+}
+
+header nav ul li {
+    color: #B8BECD;
+}
+
+header nav ul li:hover {
+    color: #202336;
+}
+
+main {
+    margin-top: 70px;
+    position: relative;
+}
+
+.container-btns {
+    display: flex;
+}
+
+.log-btn {
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    padding: 8px 46px;
+    color: #FB8F1D;
+    margin: 0 18px 0 34px;
+}
+
+.reg-btn {
+    background: #FB8F1D;
+    border-radius: 8px;
+    padding: 8px 46px;
+    color: #FFFFFF;
+}
+
+.explore-travel-img {
+    background-image: url(../img/thousand-01\ 1\ \(1\).svg);
+    width: 506px;
+    height: 483px;
+    background-repeat: no-repeat;
+}
+
+.block-explore-travel,
+.block-new-way,
+.block-guides {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.wrapper-explore-travel {
+    width: 500px;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.block-explore-travel input {
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    padding: 15px 0 15px 20px;
+}
+
+.block-explore-travel h1 {
+    font: 700 64px 'Playfair Display';
+    font-style: normal;
+    color: #202336;
+}
+
+.block-explore-travel p {
+    font: 600 22px 'Inter';
+    font-style: normal;
+    color: #202336;
+}
+
+.container-inpts {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container-inpts div:not(:last-child) {
+    margin-right: 30px;
+}
+
+.container-inpts div {
+    margin-bottom: 35px;
+}
+
+.explore-btn {
+    background: #FB8F1D;
+    border-radius: 8px;
+    padding: 12px 10px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 70px;
+}
+
+.new-way-img {
+    background-image: url(../img/Thousand-02\ 1.svg);
+    background-repeat: no-repeat;
+    width: 559px;
+    height: 434px;
+    background-size: cover;
+}
+
+.wrapper-new-way {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    height: 350px;
+    margin-top: 20px;
+}
+
+.wrapper-new-way h2 {
+    width: 450px;
+    font: 700 36px 'Playfair Display';
+    font-style: normal;
+    color: #000000;
+}
+
+.wrapper-new-way p {
+    width: 450px;
+    font: 300 17px 'Mulish';
+    font-style: normal;
+    color: #7D7987;
+}
+
+.learn-more-btn {
+    background: #FB8F1D;
+    border-radius: 8px;
+    color: #FFFFFF;
+    width: 140px;
+    padding: 12px 10px;
+    text-align: center;
+}
+
+.block-featured-destinations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.wrapper-destinations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.wrapper-destinations h2 {
+    font: 700 36px 'Playfair Display';
+    font-style: normal;
+    color: #000000;
+}
+
+.wrapper-destinations div {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-destinations p {
+    font: 600 17px 'Inter';
+    color: #FB8F1D;
+}
+
+.vector-img {
+    background-image: url(../img/Vector\ 1.svg);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.destination-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.destination-img-1 {
+    background-image: url(../img/image1.png);
+}
+
+.destination-img-2 {
+    background-image: url(../img/image2.png);
+}
+
+.destination-img-3 {
+    background-image: url(../img/image3.png);
+}
+
+.destination-img-4 {
+    background-image: url(../img/image4.png);
+}
+
+.destination-img-1,
+.destination-img-2,
+.destination-img-3,
+.destination-img-4 {
+    background-repeat: no-repeat;
+    width: 648px;
+    height: 432px;
+}
+
+.wrapper-guides {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    height: 350px;
+}
+
+.wrapper-guides h2 {
+    font: 700 36px 'Playfair Display';
+    font-style: normal;
+    color: #000000;
+}
+
+.wrapper-guides p {
+    font: 300 17px 'Mulish';
+    font-style: normal;
+    color: #7D7987;
+}
+
+.download-btn {
+    background: #FB8F1D;
+    border-radius: 8px;
+    padding: 12px 10px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 110px;
+}
+
+.guides-img {
+    background-image: url(../img/Thousand-03.svg);
+    background-repeat: no-repeat;
+    Width: 499px;
+    height: 442px;
+    background-size: cover;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.footer-basic-info,
+.footer-destinations,
+.footer-shop,
+.footer-interests {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    height: 250px;
+}
+
+
+.img-footer-logo {
+    background-image: url(../img/Group\ 7.svg);
+    width: 45px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.footer-basic-info p,
+.footer-destinations p,
+.footer-shop p,
+.footer-interests p {
+    font: 300 18px'Mulish';
+    font-style: normal;
+    color: #848484;
+}
+
+.footer-destinations h3,
+.footer-shop h3,
+.footer-interests h3 {
+    font: 700 19px'Mulish';
+    font-style: normal;
+    color: #000000;
+}
