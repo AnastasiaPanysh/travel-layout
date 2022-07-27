@@ -120,7 +120,7 @@ main {
 .block-guides {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .wrapper-explore-travel {
@@ -365,4 +365,42 @@ footer {
     font: 700 19px'Mulish';
     font-style: normal;
     color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    body {
+        margin: 0 15px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    p,
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    .explore-travel-img,
+    .new-way-img,
+    .guides-img {
+        display: none;
+    }
+
+
+    .destination-imgs {
+        flex-direction: column;
+        height: auto;
+    }
+
+    header,
+    footer {
+        width: 600px;
+    }
 }
